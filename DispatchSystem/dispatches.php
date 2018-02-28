@@ -6,6 +6,8 @@
 
   while($row = $statement-fetch())
   {
-    
+    echo "<div class='dispatch'>";
+    echo ""
+    echo "</div>";
   }
 ?>
