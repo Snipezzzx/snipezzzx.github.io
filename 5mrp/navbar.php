@@ -3,7 +3,7 @@
   <a id="brand" href="#">5MRP</a>
   <ul>
     <li>
-      <a href="index.htm">Home</a>
+      <a href="index.htm" class="active">Home</a>
     </li>
     <li>
       <a href="#">Forum</a>
@@ -15,7 +15,7 @@
       <a href="#">Regeln</a>
     </li>
     <li>
-      <a href="#">Discord</a>
+      <a href="https://discord.me/ralfinger">Discord</a>
     </li>
     <li>
       <a href="#">Teamspeak</a>
