@@ -113,7 +113,10 @@
       <div class="even">
         <h1>Informationen</h1>
 
-        <p>Hier stehen in Zukunft wichtige Informationen</p>
+        <h3>Guten Tag,</h3>
+        <p>
+          willkommen auf der Website des 5MRP-Servers. Dieses Projekt besteht seit
+        </p>
       </div>
       <div class="odd">
         <h1>Updates</h1>
