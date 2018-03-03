@@ -23,68 +23,20 @@
         margin: 0;
       }
 
-      .nav {
-        align-items: center;
-        background: #28BCBB;
-        display: flex;
-        font-family: "Helvetica";
-        font-size: 15px;
-        height: 60px;
-      }
-
-      .nav #brand {
-        margin-left: 20%;
-        color: white;
-        font-size: 20px;
-        text-decoration: none;
-        text-shadow: -.5px -.5px 0 #FFF, .5px -.5px 0 #FFF, -.5px .5px 0 #FFF, .5px .5px 0 #FFF;
-      }
-
-      .nav li {
-        display: inline;
-        list-style-type: none;
-        margin-right: 20px;
-      }
-
-      .nav li a {
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-      }
-
-      .nav li a.active::after {
-        background: white;
-        content: '';
-        display: block;
-        height: 2px;
-        margin: 2px 0;
-        width: 100%;
-      }
-
-      .nav li a::after, .nav li a::before {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: white;
-        margin: 2px 0;
-        transition: width .3s;
-      }
-
-      .nav li a:hover::after, .nav li a:hover::before {
-        width: 100%;
+      .content {
+        height: 94%;
       }
 
       .even {
         background: #28BCBB;
         color: white;
-        padding: 20px 20%;
+        padding: 20px 25%;
       }
 
       .odd {
         background: #4B5B69;
         color: white;
-        padding: 20px 20%;
+        padding: 20px 25%;
       }
 
       .changelog {
@@ -101,6 +53,7 @@
 
       .changelog li {
         list-style-type: none;
+        margin: 5px;
       }
     </style>
   </head>
@@ -111,9 +64,9 @@
 
     <div class="content">
       <div class="even">
-        <h1>Informationen</h1>
+        <h1>Guten Tag,</h1>
 
-        <h3>Guten Tag,</h3>
+        <!--<h3>Guten Tag,</h3>-->
         <p>
           willkommen auf der Website des 5MRP-Servers. Dieses Projekt besteht seit
         </p>
@@ -135,5 +88,12 @@
         </div>
       </div>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('a[href^="index"]').addClass('active');
+      });
+    </script>
   </body>
 </html>
