@@ -27,6 +27,14 @@
         height: 94%;
       }
 
+      h1 {
+        margin: 10px 0;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
       .even {
         background: #28BCBB;
         color: white;
@@ -55,6 +63,19 @@
         list-style-type: none;
         margin: 5px;
       }
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      p {
+        margin: 5px 0;
+      }
     </style>
   </head>
   <body>
@@ -66,15 +87,14 @@
       <div class="even">
         <h1>Guten Tag,</h1>
 
-        <!--<h3>Guten Tag,</h3>-->
-        <p>
-          willkommen auf der Website des 5MRP-Servers. Dieses Projekt besteht seit
-        </p>
+        <p>willkommen auf der Website des 5MRP-Servers.</p>
+        <p>Grundlegendes:</p>
+        <p>Eine Übersicht über die Tastenkürzel erhältst du <a href="#">hier</a></p>
       </div>
       <div class="odd">
         <h1>Updates</h1>
 
-        <p>Hier stehen in Zukunft Changelogs</p>
+        <p>Hier stehen in <a href="#">Zukunft</a> Changelogs</p>
         <p>Beispiel:</p>
         <div class="changelog">
           <h2>Changelog vom 27.02.2018</h2>
